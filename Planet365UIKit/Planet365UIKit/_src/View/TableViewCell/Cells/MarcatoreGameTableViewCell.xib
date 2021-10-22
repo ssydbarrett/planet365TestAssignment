@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MarcatoreGameTableViewCell" id="62f-GG-CTf" customClass="MarcatoreGameTableViewCell" customModule="Planet365UIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="62f-GG-CTf" id="Z5W-cZ-Ed8">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ffM-Zh-6cA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ffM-Zh-6cA" firstAttribute="leading" secondItem="Z5W-cZ-Ed8" secondAttribute="leading" id="X45-xY-0g9"/>
+                    <constraint firstAttribute="trailing" secondItem="ffM-Zh-6cA" secondAttribute="trailing" id="jI4-GG-mVl"/>
+                    <constraint firstItem="ffM-Zh-6cA" firstAttribute="top" secondItem="Z5W-cZ-Ed8" secondAttribute="top" id="mxG-C7-Pwa"/>
+                    <constraint firstAttribute="bottom" secondItem="ffM-Zh-6cA" secondAttribute="bottom" id="tAw-87-YOV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="tblTable" destination="ffM-Zh-6cA" id="GFJ-S1-oP4"/>
+            </connections>
+            <point key="canvasLocation" x="57" y="-219"/>
+        </tableViewCell>
+    </objects>
+</document>
